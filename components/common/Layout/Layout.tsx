@@ -9,8 +9,8 @@ import cn from 'clsx'
 import { Navbar } from '@components/common'
 import { useAcceptCookies } from '@lib/hooks/useAcceptCookies'
 import { LoadingDots } from '@components/ui'
-import type { Page } from '@commerce/types/page'
-import type { Category } from '@commerce/types/site'
+/* import type { Page } from '@commerce/types/page'
+import type { Category } from '@commerce/types/site' */
 
 import { NavbarLinkData } from '../../../pages/api/static/navbar'
 import { ShopifyFooter } from '../../shopify/Footer'
@@ -54,8 +54,8 @@ const Modal = dynamic(() => import('@components/ui/Modal'), {
 
 interface Props {
   pageProps: {
-    pages?: Page[]
-    categories: Category[]
+    pages?: any[]
+    categories: any[]
   }
   children?: React.ReactNode
 }
