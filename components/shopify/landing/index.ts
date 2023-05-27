@@ -1,0 +1,6 @@
+export { ShopifyHero } from './hero'
+export { ShopifyUsp } from './usp'
+export { ShopifySelection } from './selection'
+export { ShopifyReview } from './review'
+export { ShopifySingleVideo } from './video'
+export { ShopifyBlogSlider } from './blog'

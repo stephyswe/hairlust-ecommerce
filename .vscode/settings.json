@@ -1,0 +1,53 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    // folders
+    ".git": true,
+    ".github": true,
+    "packages": true,
+    "node_modules": true,
+
+    // files
+    ".editorconfig": true,
+    ".prettierignore": true,
+    ".eslintrc.js": false,
+    ".gitignore": true,
+    ".husky": true,
+    ".next": true,
+    ".npmrc": true,
+    ".prettierrc": true,
+    "license.md": true,
+    "pnpm-lock.yaml": true,
+    "pnpm-workspace.yaml": true,
+    "turbo.json": true,
+    "package.json": false,
+
+
+    // Site folders
+    "site/.next": true,
+    "site/.turbo": true,
+    "site/node_modules": true,
+    "site/public": true,
+
+    // Site files
+    "site/.env": true,
+    "site/.env.local": true,
+    "site/.eslintrc": true,
+    "site/.gitignore": true,
+    "site/.prettierignore": true,
+    "site/.prettierrc": false,
+    "site/commerce-config.js": true,
+    "site/commerce.config.json": true,
+    "site/global.d.ts": true,
+    "site/next-env.d.ts": true,
+    "site/next.config.js": true,
+    "site/package.json": false,
+    "site/postcss.config.js": true,
+    "site/tailwind.config.js": true,
+    "site/tsconfig.json": false,
+    "site/yarn.lock": true,
+    "site/yarn-error.log": true,
+    "site/.npmrc": true,
+  }
+}
