@@ -5286,7 +5286,7 @@ body {
   position: absolute;
   top: 0;
   height: 100%;
-  background-color: var(--color-grey-border);
+  background-color: var(--color-black);
 }
 
 .slider-progress__fill--desktop {
