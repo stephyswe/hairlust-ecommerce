@@ -22,6 +22,7 @@ import { ModalDefault, ModalLightBox, ModalIngredient } from './Modal'
 import { modalData } from '../../../pages/api/static/navbar/modal'
 import { CartSidebarView } from '../Navbar/components/cart/CartSidebarView/CartSidebarView'
 import { dataInstagramFeed } from '../../../pages/api/static/shopify/instagram'
+import Cookie from '@components/cookie'
 
 const Loading = () => (
   <div className="w-80 h-80 flex items-center text-center justify-center p-3">
@@ -171,6 +172,7 @@ const Layout: React.FC<Props> = ({
 
       {/* <Footer pages={pageProps.pages} /> */}
       <ModalUI />
+      <Cookie />
       {/* <FeatureBar
         title="This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy."
         hide={acceptedCookies}
